@@ -1,9 +1,7 @@
 # Real time Indian Sign Language Interpretation System Using Python and Open-CV
 The Indian Sign Language System is a real-time communication solution that uses computer vision and deep learning to recognize ISL gestures through a live camera. It converts recognized signs into text and speech, helping bridge communication gaps between sign language users and non-signers.The system promotes accessibility,communication.
-ndian Sign Language Recognition System
-A professional real-time Indian Sign Language (ISL) recognition system with a modern web interface. Uses MediaPipe for hand detection and a trained neural network for gesture classification.
 
-🚀 Features
+# 🚀 Features
 Real-time Recognition: Live two-handed gesture recognition
 Professional Web Interface: Modern, responsive design
 Easy Controls: Start/Stop/Exit prediction with one click
