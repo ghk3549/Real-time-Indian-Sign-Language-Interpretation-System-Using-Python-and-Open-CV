@@ -1,41 +1,49 @@
 # Real time Indian Sign Language Interpretation System Using Python and Open-CV
 The Indian Sign Language System is a real-time communication solution that uses computer vision and deep learning to recognize ISL gestures through a live camera. It converts recognized signs into text and speech, helping bridge communication gaps between sign language users and non-signers.The system promotes accessibility,communication.
 
-# 🚀 Features
+## 🚀 Features
 
-Real-time Recognition: Live two-handed gesture recognition.
+- **Real-time Recognition**: Live two-handed gesture recognition
+- **Professional Web Interface**: Modern, responsive design
+- **Easy Controls**: Start/Stop/Exit prediction with one click
+- **Learning Resources**: Integrated ISL tutorial links
+- **Mobile Responsive**: Works on all devices
 
-Professional Web Interface: Modern, responsive design
+## 📋 Requirements
 
-Easy Controls: Start/Stop/Exit prediction with one click
+- Python 3.7+
+- OpenCV
+- MediaPipe
+- TensorFlow
+- Flask
+- Flask-CORS
 
-Learning Resources: Integrated ISL tutorial links
+## 🛠️ Installation
 
-Mobile Responsive: Works on all devices
-# 📋 Requirements
-Python 3.7+
-OpenCV
-MediaPipe
-TensorFlow
-Flask
-Flask-CORS
-#🛠️ Installation
-Install Python dependencies:
+1. **Install Python dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
-Run the application:
+2. **Run the application:**
+   ```bash
+   python app.py
+   ```
 
-python app.py
-Open your browser:
+3. **Open your browser:**
+   - Go to `http://localhost:5000`
+   - Allow camera access when prompted
 
-Go to http://localhost:5000
-Allow camera access when prompted
-#🎯 Usage
-Start Prediction: Click "Start Prediction" to begin recognition
-Stop Prediction: Click "Stop Prediction" to pause
-Exit: Click "Exit" to close the application
-Learn ISL: Use the learning resource cards for tutorials
-#📁 Project Structure
+## 🎯 Usage
+
+1. **Start Prediction**: Click "Start Prediction" to begin recognition
+2. **Stop Prediction**: Click "Stop Prediction" to pause
+3. **Exit**: Click "Exit" to close the application
+4. **Learn ISL**: Use the learning resource cards for tutorials
+
+## 📁 Project Structure
+
+```
 ISL_Interpreter_2Hands/
 ├── app.py                    # Main Flask application
 ├── simple_frontend.html      # Professional web interface
@@ -48,24 +56,32 @@ ISL_Interpreter_2Hands/
 ├── static/                   # CSS styles
 ├── templates/                # Flask templates
 └── utils_preproc_two.py      # Data preprocessing utilities
-🔧 Development
-Training: python train_model_two_hands.py
-Data Collection: python collect_data_two_hands.py
-Real-time Testing: python realtime_isl_two_hands.py
-#🎨 Interface
-The web interface features:
+```
 
-Dark Professional Theme: Modern, business-ready design
-Real-time Video Feed: Live camera input with gesture overlay
-Control Panel: Intuitive start/stop controls
-Learning Section: Direct links to ISL tutorials
-Responsive Design: Works on desktop and mobile
-#📱 Browser Support
-Chrome (recommended)
-Firefox
-Safari
-Edge
-#🔒 Privacy
-All processing happens locally
-No data is sent to external servers
-Camera access is only used for gesture recognition
+## 🔧 Development
+
+- **Training**: `python train_model_two_hands.py`
+- **Data Collection**: `python collect_data_two_hands.py`
+- **Real-time Testing**: `python realtime_isl_two_hands.py`
+
+## 🎨 Interface
+
+The web interface features:
+- **Dark Professional Theme**: Modern, business-ready design
+- **Real-time Video Feed**: Live camera input with gesture overlay
+- **Control Panel**: Intuitive start/stop controls
+- **Learning Section**: Direct links to ISL tutorials
+- **Responsive Design**: Works on desktop and mobile
+
+## 📱 Browser Support
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## 🔒 Privacy
+
+- All processing happens locally
+- No data is sent to external servers
+- Camera access is only used for gesture recognition
